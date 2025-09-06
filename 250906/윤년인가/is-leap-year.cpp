@@ -7,7 +7,8 @@ int main() {
 
     cin >> Y;
 
-    if( Y % 4 == 0 && Y % 100 != 0){
+    if( Y % 4 == 0 ){
+        if(Y % 100 != 0){
         cout << "true";
         }
     else{
@@ -16,6 +17,7 @@ int main() {
                 cout << "false";
         }            
     }
-    return 0;
     }
+    }
+    return 0;
 }
