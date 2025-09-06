@@ -11,9 +11,11 @@ int main() {
         cout << "true";
         }
     else{
-        if( Y % 100 == 0 && Y % 400 != 0){
+        if( Y % 100 == 0){
+            if(Y % 400 != 0){
                 cout << "false";
         }            
     }
     return 0;
+    }
 }
