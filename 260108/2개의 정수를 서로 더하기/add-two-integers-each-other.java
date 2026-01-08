@@ -6,10 +6,10 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        a = a + 3;
-        b = b + 4;
+        a += 3;
+        b += 4;
 
-        System.out.printf("%d %d", a, b);
+        System.out.print(a + " " + b);
     
     }
 }
