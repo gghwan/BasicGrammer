@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        // Please write your code here.
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        int Sum = a + b + c;
+        int Avg = Sum / 3;
+        int Sub = Sum - Avg;
+
+        System.out.println(Sum);
+        System.out.println(Avg);
+        System.out.println(Sub);
+    }
+}
