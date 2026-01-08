@@ -1,15 +1,17 @@
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        // Please write your code here.
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-
-        a += 3;
-        b += 4;
-
-        System.out.print(a + " " + b);
-    
+        
+        // Add b to a
+        a = a + b;
+        
+        // Add a to b
+        b = b + a;
+        
+        System.out.println(a + " " + b);
     }
 }
