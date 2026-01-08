@@ -6,7 +6,10 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.printf("%d\n", a + b);
-        System.out.printf("%d", b%10);
+        a = a + 87;
+        b = b % 10;
+
+        System.out.println(a);
+        System.out.println(b);
     }
 }
