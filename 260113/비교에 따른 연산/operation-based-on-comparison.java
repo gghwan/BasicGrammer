@@ -9,7 +9,7 @@ public class Main {
         if ( a > b ){
            System.out.println( a * b );     
         }
-        else {
+        if ( b > a ){
             System.out.println(a);
         }
     }
