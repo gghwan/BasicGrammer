@@ -11,10 +11,8 @@ public class Main {
         if ( a > b ){
             System.out.println(c);
         }
-
-        if ( b > a){
+        else{
             System.out.println(d);
         }
-        
     }
 }
