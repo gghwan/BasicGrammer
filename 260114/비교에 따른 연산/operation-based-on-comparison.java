@@ -9,8 +9,8 @@ public class Main {
         if ( a > b ){
            System.out.println( a * b );     
         }
-        if ( b > a ){
-            System.out.println(a);
+        else {
+            System.out.println( b / a);
         }
     }
 }
